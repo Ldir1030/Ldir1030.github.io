@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ldir.online/categories/index.html</loc>
+    <loc>https://ldir.online/contact/index.html</loc>
     
-    <lastmod>2020-04-07T11:06:45.411Z</lastmod>
+    <lastmod>2020-04-07T12:14:39.638Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ldir.online/about/index.html</loc>
+    
+    <lastmod>2020-04-07T12:13:58.865Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://ldir.online/2020/04/07/blog-open-source/</loc>
     
-    <lastmod>2020-04-07T11:04:13.210Z</lastmod>
+    <lastmod>2020-04-07T12:09:00.275Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ldir.online/categories/index.html</loc>
+    
+    <lastmod>2020-04-07T11:06:45.411Z</lastmod>
     
   </url>
   
@@ -30,13 +44,6 @@
   </url>
   
   <url>
-    <loc>https://ldir.online/about/index.html</loc>
-    
-    <lastmod>2020-03-26T08:50:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://ldir.online/archives/index.html</loc>
     
     <lastmod>2020-03-26T08:50:57.000Z</lastmod>
@@ -45,13 +52,6 @@
   
   <url>
     <loc>https://ldir.online/friends/index.html</loc>
-    
-    <lastmod>2020-03-26T08:50:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ldir.online/contact/index.html</loc>
     
     <lastmod>2020-03-26T08:50:57.000Z</lastmod>
     
