@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ldir.online/2019/08/27/blog-open-source/</loc>
-    <lastmod>2020-03-26</lastmod>
+    <loc>https://ldir.online/categories/index.html</loc>
+    <lastmod>2020-04-07</lastmod>
+  </url>  <url>
+    <loc>https://ldir.online/2020/04/07/blog-open-source/</loc>
+    <lastmod>2020-04-07</lastmod>
   </url>
 </urlset>
