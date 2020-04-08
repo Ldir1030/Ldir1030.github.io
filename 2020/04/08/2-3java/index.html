@@ -2,9 +2,9 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  <title>放松一下 | Ldir的博客</title>
-  <meta name="keywords" content>
-  <meta name="description" content="放松一下 | Ldir的博客">
+  <title>java多态 | Ldir的博客</title>
+  <meta name="keywords" content=" java , 多态 ">
+  <meta name="description" content="java多态 | Ldir的博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Oops～，我崩溃了！找不到你想要的页面 :(     有可能博主优化了网站url，页面链接地址发生了变化，你可以尝试返回主页，查找对应博文页面！！！">
 <meta property="og:type" content="website">
@@ -240,19 +240,35 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="av-" class="article article-type-av" itemscope itemprop="blogPost">
+        <article id="post-2-3java" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">放松一下</h1>
+        <h1 class="article-title">java多态</h1>
     
     <div class="article-meta">
         
+        <span class="top"><a>置顶</a></span>
         
         
+        
+        <span class="book">
+            
+                <a  data-rel="java">java</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a class="color5">java</a>
+            
+            <a class="color3">多态</a>
+            
+        </span>
         
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-03-26 16:50:57'>2019-08-10 16:41</time>
+        创建时间:<time class="date" title='更新时间: 2020-04-08 15:59:13'>2020-04-08 10:11</time>
         
     </div>
     <div class="article-meta">
@@ -274,7 +290,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#影音资源共享"><span class="toc-text">影音资源共享</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#多态"><span class="toc-text">多态</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#多态存在的三个必要条件：继承，重写，父类引用指向子类对象"><span class="toc-text">多态存在的三个必要条件：继承，重写，父类引用指向子类对象</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -290,10 +306,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="影音资源共享"><a href="#影音资源共享" class="headerlink" title="影音资源共享"></a>影音资源共享</h1><ul>
-<li><b>这里准备用来分享各类好玩的资源</b></li>
-<li><b>待更新……<b></b></b></li>
-</ul>
+        <h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><p>同一行为具有有多个不同的形式或形态的行为</p>
+<h2 id="多态存在的三个必要条件：继承，重写，父类引用指向子类对象"><a href="#多态存在的三个必要条件：继承，重写，父类引用指向子类对象" class="headerlink" title="多态存在的三个必要条件：继承，重写，父类引用指向子类对象"></a>多态存在的三个必要条件：继承，重写，父类引用指向子类对象</h2><p>Parent p = new Child();</p>
+<table>
+<thead>
+<tr>
+<th>public class animal1 {<br>    public static void main(String[] args) {<br>        // TODO Auto-generated method stub<br>        show(new Cat());        // 以 Cat 对象调用 show 方法<br>        show(new Dog());        // 以 Dog 对象调用 show 方法<br>        <br>        Animal a = new Cat();    //定义1个animal类的变量a,并初始化为cat类cat类肯定是animal的继承类，指向31行，父类引用指向子类对象<br>        a.eat();        <br>        Cat c = (Cat)a;            //因为show在的work方法(35行)是用c变量表示<br>        c.work();<br>    }<br>    <br>    public static void show(Animal a){<br>        a.eat();<br>        if(a instanceof Cat){<br>            Cat c = (Cat)a;        //动物A强制转为猫类<br>            c.work();<br>        }else if (a instanceof Dog){<br>            Dog c = (Dog)a;        //动物A强制转为狗类<br>            c.work();<br>        }<br>    }<br>}<br><br>abstract class Animal{<br>    abstract void eat();<br>}<br><br>class Cat extends Animal{        //继承<br>    public void eat(){<br>        System.out.println(“吃鱼”);<br>    }    <br>    public void work(){<br>        System.out.println(“抓老鼠”);//为什么重写后能运行呢因为能运行，因为19行里有work方法而6.7调用的是show<br>    }<br>}<br><br>class Dog extends Animal{        //继承<br>    public void eat(){<br>        System.out.println(“吃骨头”);<br>    }<br>    public void work(){<br>        System.out.println(“看家”);<br>    }<br>}</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>在重写中，如果父类有私有属性可以用source中get setters进行调用。要想调用父类中被重写的方法，则必须使用关键字 <strong>super</strong>。</td>
+</tr>
+</tbody></table>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -319,6 +343,18 @@
 </article>
 
 
+
+<div class="article_copyright">
+    <p><span class="copy-title">文章标题:</span>java多态</p>
+    
+    <p><span class="copy-title">本文作者:</span><a  title="Ldir">Ldir</a></p>
+    <p><span class="copy-title">发布时间:</span>2020-04-08, 10:11:00</p>
+    <p><span class="copy-title">最后更新:</span>2020-04-08, 15:59:13</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/04/08/2-3java/" title="java多态">https://ldir.online/2020/04/08/2-3java/</a>
+    <p>
+        <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+    </p>
+</div>
 
 
 

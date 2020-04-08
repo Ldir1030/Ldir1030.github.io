@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ldir.online/"/>
-  <updated>2020-04-07T12:09:00.275Z</updated>
+  <updated>2020-04-08T07:59:13.772Z</updated>
   <id>https://ldir.online/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java多态</title>
+    <link href="https://ldir.online/2020/04/08/2-3java/"/>
+    <id>https://ldir.online/2020/04/08/2-3java/</id>
+    <published>2020-04-08T02:11:00.000Z</published>
+    <updated>2020-04-08T07:59:13.772Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;多态&quot;&gt;&lt;a href=&quot;#多态&quot; class=&quot;headerlink&quot; title=&quot;多态&quot;&gt;&lt;/a&gt;多态&lt;/h1&gt;&lt;p&gt;同一行为具有有多个不同的形式或形态的行为&lt;/p&gt;
+&lt;h2 id=&quot;多态存在的三个必要条件：继承，重写，父类引用指向子类对象&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="java" scheme="https://ldir.online/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://ldir.online/tags/java/"/>
+    
+      <category term="多态" scheme="https://ldir.online/tags/%E5%A4%9A%E6%80%81/"/>
+    
+  </entry>
   
   <entry>
     <title>target</title>

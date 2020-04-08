@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>java多态</title>
+      <link href="/2020/04/08/2-3java/"/>
+      <url>/2020/04/08/2-3java/</url>
+      
+        <content type="html"><![CDATA[<h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><p>同一行为具有有多个不同的形式或形态的行为</p><h2 id="多态存在的三个必要条件：继承，重写，父类引用指向子类对象"><a href="#多态存在的三个必要条件：继承，重写，父类引用指向子类对象" class="headerlink" title="多态存在的三个必要条件：继承，重写，父类引用指向子类对象"></a>多态存在的三个必要条件：继承，重写，父类引用指向子类对象</h2><p>Parent p = new Child();</p><table><thead><tr><th>public class animal1 {<br>    public static void main(String[] args) {<br>        // TODO Auto-generated method stub<br>        show(new Cat());        // 以 Cat 对象调用 show 方法<br>        show(new Dog());        // 以 Dog 对象调用 show 方法<br>        <br>        Animal a = new Cat();    //定义1个animal类的变量a,并初始化为cat类cat类肯定是animal的继承类，指向31行，父类引用指向子类对象<br>        a.eat();        <br>        Cat c = (Cat)a;            //因为show在的work方法(35行)是用c变量表示<br>        c.work();<br>    }<br>    <br>    public static void show(Animal a){<br>        a.eat();<br>        if(a instanceof Cat){<br>            Cat c = (Cat)a;        //动物A强制转为猫类<br>            c.work();<br>        }else if (a instanceof Dog){<br>            Dog c = (Dog)a;        //动物A强制转为狗类<br>            c.work();<br>        }<br>    }<br>}<br><br>abstract class Animal{<br>    abstract void eat();<br>}<br><br>class Cat extends Animal{        //继承<br>    public void eat(){<br>        System.out.println(“吃鱼”);<br>    }    <br>    public void work(){<br>        System.out.println(“抓老鼠”);//为什么重写后能运行呢因为能运行，因为19行里有work方法而6.7调用的是show<br>    }<br>}<br><br>class Dog extends Animal{        //继承<br>    public void eat(){<br>        System.out.println(“吃骨头”);<br>    }<br>    public void work(){<br>        System.out.println(“看家”);<br>    }<br>}</th></tr></thead><tbody><tr><td>在重写中，如果父类有私有属性可以用source中get setters进行调用。要想调用父类中被重写的方法，则必须使用关键字 <strong>super</strong>。</td></tr></tbody></table><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java </tag>
+            
+            <tag> 多态 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>target</title>
       <link href="/2020/04/07/blog-open-source/"/>
       <url>/2020/04/07/blog-open-source/</url>
