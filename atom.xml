@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ldir.online/"/>
-  <updated>2020-04-08T08:22:29.632Z</updated>
+  <updated>2020-04-08T07:59:13.772Z</updated>
   <id>https://ldir.online/</id>
   
   <author>
@@ -15,32 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>fib</title>
-    <link href="https://ldir.online/2020/04/08/fib/"/>
-    <id>https://ldir.online/2020/04/08/fib/</id>
-    <published>2020-04-08T08:22:29.000Z</published>
-    <updated>2020-04-08T08:22:29.632Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>java多态</title>
