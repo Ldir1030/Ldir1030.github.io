@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ldir.online/"/>
-  <updated>2020-04-09T08:28:50.998Z</updated>
+  <updated>2020-04-09T08:31:21.837Z</updated>
   <id>https://ldir.online/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ldir.online/2020/04/09/java20-4-9/"/>
     <id>https://ldir.online/2020/04/09/java20-4-9/</id>
     <published>2020-04-09T02:14:16.000Z</published>
-    <updated>2020-04-09T08:28:50.998Z</updated>
+    <updated>2020-04-09T08:31:21.837Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,10 @@
       
         
         
-          &lt;h1 id=&quot;抽象类&quot;&gt;&lt;a href=&quot;#抽象类&quot; class=&quot;headerlink&quot; title=&quot;抽象类&quot;&gt;&lt;/a&gt;抽象类&lt;/h1&gt;&lt;p&gt;例如要写一个动物类有一个行走方法，但是每个动物子类的行走方式都不一样,&lt;br&gt; 所以动物类要抽象化实现，就是不写方法&lt;br&gt;|
+          &lt;h1 id=&quot;抽象类&quot;&gt;&lt;a href=&quot;#抽象类&quot; class=&quot;headerlink&quot; title=&quot;抽象类&quot;&gt;&lt;/a&gt;抽象类&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;例如要写一个动物类有一个行走方法，但是每个动物子类的行走方式都不一样,&lt;br&gt;
         
       
     
