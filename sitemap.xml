@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ldir.online/2020/04/08/fib/</loc>
+    
+    <lastmod>2020-04-08T08:22:29.632Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://ldir.online/2020/04/08/2-3java/</loc>
     
     <lastmod>2020-04-08T07:59:13.772Z</lastmod>
@@ -58,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://ldir.online/galleries/index.html</loc>
-    
-    <lastmod>2020-03-26T08:50:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://ldir.online/friends/index.html</loc>
     
     <lastmod>2020-03-26T08:50:57.000Z</lastmod>
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://ldir.online/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%874/index.html</loc>
+    <loc>https://ldir.online/galleries/index.html</loc>
     
     <lastmod>2020-03-26T08:50:57.000Z</lastmod>
     
@@ -87,6 +87,13 @@
   
   <url>
     <loc>https://ldir.online/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%873/index.html</loc>
+    
+    <lastmod>2020-03-26T08:50:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ldir.online/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%874/index.html</loc>
     
     <lastmod>2020-03-26T08:50:57.000Z</lastmod>
     
