@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ldir.online/"/>
-  <updated>2020-04-08T07:59:13.772Z</updated>
+  <updated>2020-04-09T08:27:23.118Z</updated>
   <id>https://ldir.online/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java抽象类</title>
+    <link href="https://ldir.online/2020/04/09/java20-4-9/"/>
+    <id>https://ldir.online/2020/04/09/java20-4-9/</id>
+    <published>2020-04-09T02:14:16.000Z</published>
+    <updated>2020-04-09T08:27:23.118Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;抽象类&quot;&gt;&lt;a href=&quot;#抽象类&quot; class=&quot;headerlink&quot; title=&quot;抽象类&quot;&gt;&lt;/a&gt;抽象类&lt;/h1&gt;&lt;p&gt;例如要写一个动物类有一个行走方法，但是每个动物子类的行走方式都不一样,&lt;br&gt; 所以动物类要抽象化实现，就是不写方法&lt;br&gt;|
+        
+      
+    
+    </summary>
+    
+      <category term="java" scheme="https://ldir.online/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://ldir.online/tags/java/"/>
+    
+      <category term="笔记" scheme="https://ldir.online/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>java多态</title>
