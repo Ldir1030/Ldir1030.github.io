@@ -2,9 +2,9 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  <title>背景图片3 | Ldir的博客</title>
-  <meta name="keywords" content>
-  <meta name="description" content="背景图片3 | Ldir的博客">
+  <title>java封装 | Ldir的博客</title>
+  <meta name="keywords" content=" java , 笔记 ">
+  <meta name="description" content="java封装 | Ldir的博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Oops～，我崩溃了！找不到你想要的页面 :(     有可能博主优化了网站url，页面链接地址发生了变化，你可以尝试返回主页，查找对应博文页面！！！">
 <meta property="og:type" content="website">
@@ -260,19 +260,35 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="gallery-" class="article article-type-gallery" itemscope itemprop="blogPost">
+        <article id="post-java2_5" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">背景图片3</h1>
+        <h1 class="article-title">java封装</h1>
     
     <div class="article-meta">
         
+        <span class="top"><a>置顶</a></span>
         
         
+        
+        <span class="book">
+            
+                <a  data-rel="java">java</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a class="color5">java</a>
+            
+            <a class="color3">笔记</a>
+            
+        </span>
         
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-03-26 16:50:57'>2020-04-07 20:14</time>
+        创建时间:<time class="date" title='更新时间: 2020-04-10 20:33:16'>2020-04-10 20:14</time>
         
     </div>
     <div class="article-meta">
@@ -294,7 +310,7 @@
     
     <div class="toc-ref">
     
-        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#java封装"><span class="toc-text">java封装</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -310,7 +326,49 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <script>
+        <h1 id="java封装"><a href="#java封装" class="headerlink" title="java封装"></a>java封装</h1><table>
+<thead>
+<tr>
+<th>将抽象性函式接口的实现细节部分包装、隐藏起来的方法<br>先get得到属性再set使用属性<br>然后调用先set再返回<br>封装最主要的功能在于我们能修改自己的实现代码，而不用修改那些调用我们代码的程序片段。<br>更安全</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+</tr>
+</tbody></table>
+<pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">hezo</span> <span class="token punctuation">{</span>
+    <span class="token keyword">private</span> String name<span class="token punctuation">;</span>
+    <span class="token keyword">private</span> <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">// 利用get方法获取私有属性,</span>
+<span class="token comment" spellcheck="true">// 用set方法调用属性(set方法里面才不是空)</span>
+    <span class="token keyword">public</span> String <span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> name<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setName</span><span class="token punctuation">(</span>String     name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> age<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setAge</span><span class="token punctuation">(</span><span class="token keyword">int</span> age<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">test_2</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span>     <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// TODO Auto-generated method stub</span>
+    hezo ad <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">hezo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 实例化hezo对象</span>
+    ad<span class="token punctuation">.</span><span class="token function">setAge</span><span class="token punctuation">(</span><span class="token number">88</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// ad调用set方法</span>
+    ad<span class="token punctuation">.</span><span class="token function">setName</span><span class="token punctuation">(</span><span class="token string">"物理英雄"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                                  System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>ad<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"年龄"</span> <span class="token operator">+</span> ad<span class="token punctuation">.</span><span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">// ad调用get方法输出</span>
+
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -335,6 +393,18 @@
 </article>
 
 
+
+<div class="article_copyright">
+    <p><span class="copy-title">文章标题:</span>java封装</p>
+    
+    <p><span class="copy-title">本文作者:</span><a  title="Ldir">Ldir</a></p>
+    <p><span class="copy-title">发布时间:</span>2020-04-10, 20:14:09</p>
+    <p><span class="copy-title">最后更新:</span>2020-04-10, 20:33:16</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/04/10/java2-5/" title="java封装">https://ldir.online/2020/04/10/java2-5/</a>
+    <p>
+        <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+    </p>
+</div>
 
 
 
