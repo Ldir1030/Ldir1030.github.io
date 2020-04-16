@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ldir.online/"/>
-  <updated>2020-04-16T07:56:17.299Z</updated>
+  <updated>2020-04-16T13:01:40.517Z</updated>
   <id>https://ldir.online/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java包</title>
+    <link href="https://ldir.online/2020/04/16/java-package/"/>
+    <id>https://ldir.online/2020/04/16/java-package/</id>
+    <published>2020-04-16T12:31:29.000Z</published>
+    <updated>2020-04-16T13:01:40.517Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;java包&quot;&gt;&lt;a href=&quot;#java包&quot; class=&quot;headerlink&quot; title=&quot;java包&quot;&gt;&lt;/a&gt;java包&lt;/h1&gt;&lt;p&gt;为了更好地组织类，Java
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>java接口</title>

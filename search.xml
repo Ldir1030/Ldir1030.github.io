@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>java包</title>
+      <link href="/2020/04/16/java-package/"/>
+      <url>/2020/04/16/java-package/</url>
+      
+        <content type="html"><![CDATA[<h1 id="java包"><a href="#java包" class="headerlink" title="java包"></a>java包</h1><p>为了更好地组织类，Java 提供了包机制，用于区别类名的命名空间。</p><p>通常使用小写的字母来命名避免与类、接口名字的冲突</p><h4 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h4><p>package 包名;</p><p>1、把功能相似或相关的类或接口组织在同一个包中，方便类的查找和使用。</p><p>2、同一个包中的类名字是不同的，不同的包中的类的名字是可以相同的，当同时调用两个不同包中相同类名的类时，应该加上包名加以区别。</p><p>3、包也限定了访问权限，拥有包访问权限的类才能访问某个包中的</p><p>package net.java.util; </p><p>public class Something{   … </p><p>}</p><p>它的路径应该是 <strong>net/java/util/Something.java</strong> 这样保存的</p><ul><li><strong>java.lang</strong>-打包基础的类</li><li><strong>java.io</strong>-包含输入输出功能的函数</li></ul><p>开发者可以自己把一组类和接口等打包，并定义自己的包。而且在实际开发中这样做是值得提倡的，当你自己完成类的实现之后，将相关的类分组，可以让其他的编程者更容易地确定哪些类、接口、枚举和注释等是相关的。</p><h4 id="导入包"><a href="#导入包" class="headerlink" title="导入包"></a>导入包</h4><p>import package1;</p><h6 id="通常，一个公司使用它互联网域名的颠倒形式来作为它的包名-例如：互联网域名是-runoob-com，所有的包名都以-com-runoob-开头。"><a href="#通常，一个公司使用它互联网域名的颠倒形式来作为它的包名-例如：互联网域名是-runoob-com，所有的包名都以-com-runoob-开头。" class="headerlink" title="通常，一个公司使用它互联网域名的颠倒形式来作为它的包名.例如：互联网域名是 runoob.com，所有的包名都以 com.runoob 开头。"></a>通常，一个公司使用它互联网域名的颠倒形式来作为它的包名.例如：互联网域名是 runoob.com，所有的包名都以 com.runoob 开头。</h6><p>….\com\runoob\test\Runoob.java</p><h4 id="导入一个包中的所有类和接口"><a href="#导入一个包中的所有类和接口" class="headerlink" title="导入一个包中的所有类和接口"></a>导入一个包中的所有类和接口</h4><p>import xxx.*;</p><p>为了更好管理自己的源码，包，类</p><p>只有一个文件时编译：</p><pre><code>javac A.java</code></pre><p>一个包的文件都在时编译：</p><pre><code>javac -d . *.java</code></pre><p><strong>运行：</strong>编译之后会自己生成文件夹，不要进入这个文件夹，直接运行 <strong>java -cp /home/test test.Run</strong>，其中源文件在 test 文件夹中，包名为 test，启动文件为 <strong>Run.java</strong>。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>java接口</title>
       <link href="/2020/04/16/interface/"/>
       <url>/2020/04/16/interface/</url>
