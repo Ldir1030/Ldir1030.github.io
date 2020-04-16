@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ldir.online/"/>
-  <updated>2020-04-16T07:53:50.256Z</updated>
+  <updated>2020-04-16T07:55:21.994Z</updated>
   <id>https://ldir.online/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ldir.online/2020/04/16/interface/"/>
     <id>https://ldir.online/2020/04/16/interface/</id>
     <published>2020-04-16T07:41:08.000Z</published>
-    <updated>2020-04-16T07:53:50.256Z</updated>
+    <updated>2020-04-16T07:55:21.994Z</updated>
     
     <summary type="html">
     
@@ -35,10 +35,14 @@
     
     </summary>
     
-      <category term="-java" scheme="https://ldir.online/categories/java/"/>
+      <category term="java" scheme="https://ldir.online/categories/java/"/>
     
     
-      <category term="-java -接口 -笔记" scheme="https://ldir.online/tags/java-%E6%8E%A5%E5%8F%A3-%E7%AC%94%E8%AE%B0/"/>
+      <category term="java" scheme="https://ldir.online/tags/java/"/>
+    
+      <category term="接口" scheme="https://ldir.online/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+      <category term="笔记" scheme="https://ldir.online/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
