@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ldir.online/"/>
-  <updated>2020-04-10T12:33:16.537Z</updated>
+  <updated>2020-04-16T07:50:44.467Z</updated>
   <id>https://ldir.online/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>接口java</title>
+    <link href="https://ldir.online/2020/04/16/interface/"/>
+    <id>https://ldir.online/2020/04/16/interface/</id>
+    <published>2020-04-16T07:41:08.000Z</published>
+    <updated>2020-04-16T07:50:44.467Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;接口&quot;&gt;&lt;a href=&quot;#接口&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="--java" scheme="https://ldir.online/categories/java/"/>
+    
+    
+      <category term="--java --接口 --笔记" scheme="https://ldir.online/tags/java-%E6%8E%A5%E5%8F%A3-%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>java封装</title>

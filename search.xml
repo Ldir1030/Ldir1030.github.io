@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>接口java</title>
+      <link href="/2020/04/16/interface/"/>
+      <url>/2020/04/16/interface/</url>
+      
+        <content type="html"><![CDATA[<h1 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h1><p>接口（英文：Interface），在JAVA编程语言中是一个抽象类型，<br>是抽象方法的集合，接口通常以interface来声明。一个类通过继承接口的方式，从而来继承接口的抽象方法。<br>/<em>接口不能用于实例化对象。<br>接口没有构造方法。<br>接口中所有的方法必须是抽象方法。<br>接口不能包含成员变量，除了 static 和 final 变量。<br>接口不是被类继承了，而是要被类实现。<br>接口支持多继承。<br>接口和接口方法都会被隐式认定为abstract</em>/<br>接口中可以含有变量，但是接口中的变量会被隐式的指定为 public static final 变量</p><h4 id="写一个接口"><a href="#写一个接口" class="headerlink" title="写一个接口"></a>写一个接口</h4><table><thead><tr><th>public interface animal {<br>    public void eat();<br>    public void move();<br>}</th></tr></thead><tbody><tr><td></td></tr></tbody></table><h4 id="接口的继承"><a href="#接口的继承" class="headerlink" title="接口的继承"></a>接口的继承</h4><table><thead><tr><th>//继承了animal接口此时test22具有三个方法<br>//类继承的时候要实现这三个方法，否则声明为抽象类<br>public interface test22 extends animal{<br>    public void see();<br>}</th></tr></thead><tbody><tr><td></td></tr></tbody></table><h4 id="没有实现接口的所有方法"><a href="#没有实现接口的所有方法" class="headerlink" title="没有实现接口的所有方法"></a>没有实现接口的所有方法</h4><table><thead><tr><th>public abstract class qq implements animal{<br><br>}</th></tr></thead><tbody><tr><td></td></tr></tbody></table><h4 id="接口的实现"><a href="#接口的实现" class="headerlink" title="接口的实现"></a>接口的实现</h4><table><thead><tr><th>//当类实现接口的时候，类要实现接口中所有的方法。否则，类必须声明为抽象的类。<br>//类使用implements关键字实现接口<br>//在Java中，类的多继承是不合法，但接口允许多继承。<br><br>    public class interFace implements animal,test22{<br><br><br>    public void see() {<br>        // TODO Auto-generated method stub<br>        <br>    }<br><br>    @Override<br>    public void eat() {<br>        // TODO Auto-generated method stub<br>        <br>    }<br><br>    @Override<br>    public void move() {<br>        // TODO Auto-generated method stub<br>        <br>    }<br><br>}</th></tr></thead><tbody><tr><td></td></tr></tbody></table><h4 id="标记接口"><a href="#标记接口" class="headerlink" title="标记接口"></a>标记接口</h4><p>最常用的继承接口是没有包含任何方法的接口</p><p>标记接口作用：简单形象的说就是给某个对象打个标（盖个戳），使对象拥有某个或某些特权。</p><p>public interface EventListener {</p><p>}</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> --java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> --java --接口 --笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>java封装</title>
       <link href="/2020/04/10/java2-5/"/>
       <url>/2020/04/10/java2-5/</url>
