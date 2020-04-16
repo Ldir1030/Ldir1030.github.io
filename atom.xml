@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ldir.online/"/>
-  <updated>2020-04-16T13:01:40.517Z</updated>
+  <updated>2020-04-16T13:03:00.620Z</updated>
   <id>https://ldir.online/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ldir.online/2020/04/16/java-package/"/>
     <id>https://ldir.online/2020/04/16/java-package/</id>
     <published>2020-04-16T12:31:29.000Z</published>
-    <updated>2020-04-16T13:01:40.517Z</updated>
+    <updated>2020-04-16T13:03:00.620Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,14 @@
     
     </summary>
     
+      <category term="java" scheme="https://ldir.online/categories/java/"/>
+    
+    
+      <category term="java" scheme="https://ldir.online/tags/java/"/>
+    
+      <category term="笔记" scheme="https://ldir.online/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="包" scheme="https://ldir.online/tags/%E5%8C%85/"/>
     
   </entry>
   
@@ -62,9 +70,9 @@
     
       <category term="java" scheme="https://ldir.online/tags/java/"/>
     
-      <category term="接口" scheme="https://ldir.online/tags/%E6%8E%A5%E5%8F%A3/"/>
-    
       <category term="笔记" scheme="https://ldir.online/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="接口" scheme="https://ldir.online/tags/%E6%8E%A5%E5%8F%A3/"/>
     
   </entry>
   
